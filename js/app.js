@@ -19,7 +19,6 @@
     })
 
     function changePicture(target){
-        
         if(target === document.getElementById('nextPic')){
             currentValue !== images.length ? currentValue++ : currentValue=1;
             console.log(currentValue)
